@@ -13,7 +13,7 @@ class Happy(Smiley, Blinkable):
     method.See {meth:blink} below.
     """
     def __init__(self):
-        super().__init__()
+        super().__init__(complexion=self.YELLOW)
 
         self.draw_mouth()
         self.draw_eyes()
