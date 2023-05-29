@@ -1,7 +1,6 @@
 from smiley import Smiley
 import time
 
-
 class Sad(Smiley):
     def __init__(self):
         super().__init__()
